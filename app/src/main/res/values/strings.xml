@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Söta Djur</string>
+    <string name="question">Vilket djur är det?</string>
+    <string name="sota_djur">Söta Djur</string>
+    <string name="borja">Börja</string>
+    <string name="grattis">Grattis!</string>
+    <string name="spela_igen">Spela igen</string>
+</resources>
