@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.guesscuteanimals">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.linali.sotadjur">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:debuggable="false"
+        android:icon="@mipmap/icon_app"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon_app"
         android:supportsRtl="true"
-        android:theme="@style/Theme.VeganAsianFood">
-        <activity android:name="com.example.guesscuteanimals.ResultActivity"
+        android:theme="@style/Theme.SotaDjur"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name="com.linali.sotadjur.ResultActivity"
             android:theme="@style/NoActionBarTheme"/>
 
-        <activity android:name="com.example.guesscuteanimals.QuestionActivity" />
-        <activity android:name="com.example.guesscuteanimals.MainActivity"
+        <activity android:name="com.linali.sotadjur.QuestionActivity"
+            android:theme="@style/NoActionBarTheme"/>
+
+        <activity android:name="com.linali.sotadjur.MainActivity"
             android:screenOrientation = "portrait"
             android:theme="@style/NoActionBarTheme">
             <intent-filter>

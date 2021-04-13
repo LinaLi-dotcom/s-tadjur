@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_finish"
-    tools:context="com.example.guesscuteanimals.ResultActivity">
+    tools:context="com.linali.sotadjur.ResultActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/finishCardView"
